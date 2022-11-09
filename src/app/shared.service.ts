@@ -50,7 +50,7 @@ readonly PhotoUrl = "https://localhost:44360/photos/"
   //photo
 
   UploadPhoto(val:any){
-    return this.http.post(this.APIUrl+'ColiveEmployee/SaveFile/',val)
+    return this.http.post(this.APIUrl+'/ColiveEmployee/SaveFile',val)
   }
 
   getAllDepartmentNames():Observable<any[]>{

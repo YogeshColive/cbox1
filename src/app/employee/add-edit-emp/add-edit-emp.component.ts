@@ -39,7 +39,7 @@ export class AddEditEmpComponent implements OnInit {
   }
 
   addEmployee(){
-           var val = {DepartmentId:this.EmployeeID,
+           var val = {EmployeeID:this.EmployeeID,
             EmployeeName: this.EmployeeName,
           Department: this.Department,
         DateOfJoining: this.DateOfJoining,
@@ -53,7 +53,7 @@ export class AddEditEmpComponent implements OnInit {
 
 
   updateEmployee(){
-               var val = {DepartmentId:this.EmployeeID,
+               var val = {EmployeeID:this.EmployeeID,
                 EmployeeName: this.EmployeeName,
               Department: this.Department,
             DateOfJoining: this.DateOfJoining,
